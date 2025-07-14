@@ -25,7 +25,8 @@ export default function AtomStructure() {
               <strong>Main Idea:</strong> Atoms are the building blocks of all matter in the universe.
             </p>
           </div>
-          <div className="bg-blue-50 border-l-4 border-green-400 p-4 rounded">
+
+          <div className="bg-blue-50 border-l-4 border-green-400 p-4 mt-5 rounded">
             <p className="text-red-800">
               <strong>Fun Fact:</strong> An atom is mostly empty space, and in between atoms is also mostly empty space. This means that everything that looks solid (eg. a cloud, a chair, the floor), is really just empty space. 
             </p>
@@ -117,7 +118,7 @@ export default function AtomStructure() {
               <h3 className="text-xl font-semibold text-yellow-800 mb-3">Atomic Number (Z)</h3>
               <p className="text-yellow-700 mb-3">
                 The number of protons in the nucleus. Each element has its own unique number. For example, if on a quiz you are asked
-                "What is the element with the atomic number of 6", there is only one correct answer - Carbon!
+                &quot;What is the element with the atomic number of 6&quot;, there is only one correct answer - Carbon!
               </p>
               <div className="bg-yellow-100 p-3 rounded">
                 <p className="text-yellow-800 font-semibold">Example: Carbon has 6 protons, so Z = 6</p>
