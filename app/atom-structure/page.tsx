@@ -6,7 +6,7 @@ export default function AtomStructure() {
       {/* Header */}
       <div className="text-center space-y-4">
         <h1 className="text-4xl font-bold text-white">⚛️ Atom Structure</h1>
-        <p className="text-xl text-white">Understanding the fundamental building blocks of matter</p>
+        <p className="text-xl text-white">Learn about what makes up everything</p>
       </div>
 
       {/* Main Content */}
@@ -40,7 +40,7 @@ export default function AtomStructure() {
                 <li>• Determines the element</li>
               </ul>
             </div>
-            <div className="bg-gradient-to-br from-gray-100 to-gray-200 p-6 rounded-lg">
+            <div className="bg-gradient-to-br from-gray-100 to-green-200 p-6 rounded-lg">
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Neutrons</h3>
               <ul className="text-gray-700 space-y-2">
                 <li>• No charge (neutral)</li>
@@ -111,7 +111,8 @@ export default function AtomStructure() {
             <div className="bg-yellow-50 p-6 rounded-lg">
               <h3 className="text-xl font-semibold text-yellow-800 mb-3">Atomic Number (Z)</h3>
               <p className="text-yellow-700 mb-3">
-                The number of protons in the nucleus. This determines the element&apos;s identity.
+                The number of protons in the nucleus. Each element has its own unique number. For example, if on a quiz you are asked
+                "What is the element with the atomic number of 6", there is only one correct answer - Carbon!
               </p>
               <div className="bg-yellow-100 p-3 rounded">
                 <p className="text-yellow-800 font-semibold">Example: Carbon has 6 protons, so Z = 6</p>

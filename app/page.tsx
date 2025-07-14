@@ -61,8 +61,8 @@ export default function Home() {
           Welcome to <span className="text-blue-600">ChemQuest</span>
         </h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-          Master chemistry through interactive learning modules. Each section includes 
-          comprehensive explanations followed by quizzes to test your understanding.
+          Learn chemistry through interactive learning modules covering grade 7 - 12 concepts.
+          Each section includes concept explanations followed by quizzes to test your understanding.
         </p>
         <div className="flex justify-center space-x-4">
           <Link 
