@@ -18,8 +18,20 @@ export default function GemCounter() {
       }
     };
 
+    // Listen for custom gem update events from the same tab
+    const handleGemUpdate = (e: CustomEvent) => {
+      if (e.detail && typeof e.detail.gems === 'number') {
+        setGems(e.detail.gems);
+      }
+    };
+
     window.addEventListener('storage', handleStorageChange);
-    return () => window.removeEventListener('storage', handleStorageChange);
+    window.addEventListener('gemUpdate', handleGemUpdate as EventListener);
+    
+    return () => {
+      window.removeEventListener('storage', handleStorageChange);
+      window.removeEventListener('gemUpdate', handleGemUpdate as EventListener);
+    };
   }, []);
 
   return (

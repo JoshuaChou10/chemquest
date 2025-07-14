@@ -104,6 +104,9 @@ export default function CovalentBondsQuiz() {
         setGems(newGems);
         localStorage.setItem('chemquest-gems', newGems.toString());
         
+        // Dispatch custom event to update GemCounter in navigation
+        window.dispatchEvent(new CustomEvent('gemUpdate', { detail: { gems: newGems } }));
+        
         // Show gem animation
         setShowGemAnimation(true);
         setTimeout(() => setShowGemAnimation(false), 1000);
