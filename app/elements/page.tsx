@@ -41,17 +41,34 @@ export default function Elements() {
                 <h4 className="font-semibold text-green-800 mb-2">Periods (Rows)</h4>
                 <ul className="text-green-700 space-y-1">
                   <li>• Horizontal rows</li>
-                  <li>• Elements in same period have same number of electron shells</li>
+                  <li>• Elements in the same period have same number of electron shells</li>
+                  <li>• The number of electron shells increase down the table</li>
                   <li>• 7 periods total</li>
                 </ul>
+                <div className="mt-3 p-3 bg-green-100 rounded-lg">
+                  <p className="text-green-800 text-sm font-semibold mb-2">Example - Period 2:</p>
+                  <p className="text-green-700 text-sm">Li, Be, B, C, N, O, F, Ne all have 2 electron shells</p>
+                  <p className="text-green-700 text-sm">• Lithium (Li): 2 shells (2,1)</p>
+                  <p className="text-green-700 text-sm">• Carbon (C): 2 shells (2,4)</p>
+                  <p className="text-green-700 text-sm">• Neon (Ne): 2 shells (2,8)</p>
+                </div>
               </div>
               <div>
                 <h4 className="font-semibold text-blue-800 mb-2">Groups (Columns)</h4>
                 <ul className="text-blue-700 space-y-1">
                   <li>• Vertical columns</li>
-                  <li>• Elements in same group have similar properties</li>
+                  <li>• Elements in same group have the same number of valence electrons</li>
+                  <li>• The number of valence electrons increase to the right of the table</li>
                   <li>• 18 groups total</li>
                 </ul>
+                <div className="mt-3 p-3 bg-blue-100 rounded-lg">
+                  <p className="text-blue-800 text-sm font-semibold mb-2">Example - Group 1 (Alkali Metals):</p>
+                  <p className="text-blue-700 text-sm">All have 1 valence electron and similar reactivity</p>
+                  <p className="text-blue-700 text-sm">• Lithium (Li): 1 valence electron</p>
+                  <p className="text-blue-700 text-sm">• Sodium (Na): 1 valence electron</p>
+                  <p className="text-blue-700 text-sm">• Potassium (K): 1 valence electron</p>
+                  <p className="text-blue-700 text-sm">All react vigorously with water!</p>
+                </div>
               </div>
             </div>
             <div className="mt-6 text-center">
@@ -226,19 +243,26 @@ export default function Elements() {
           <div className="space-y-4">
             <div className="bg-yellow-50 p-4 rounded-lg">
               <h4 className="font-semibold text-yellow-800 mb-2">Atomic Size</h4>
-              <p className="text-yellow-700">Increases down a group, decreases across a period</p>
+              <p className="text-yellow-700">This is the size of an atom. Increases down a group, decreases across a period. This is becuase the number of electron shells an element has increases down the periodic table (down a group). So the element becomes bigger. </p>
+                <p className="text-yellow-700">The atom becomes smaller across a period because the higher the period, the more valence electrons an element has. Thus, the more valence electrons, the more attraction there will be to the nucleus of the atom (this attraction is called <b>nuclear charge</b>). This attraction will squeeze the electrons to the nucleus making the atom smaller. </p>
             </div>
             <div className="bg-green-50 p-4 rounded-lg">
               <h4 className="font-semibold text-green-800 mb-2">Ionization Energy</h4>
-              <p className="text-green-700">Decreases down a group, increases across a period</p>
+              <p className="text-green-700">Ionization energy is the energy required to remove an electron from an atom. So the higher the ionization energy, the more ability it has to form an ionic bond with another element. Decreases down a group, increases across a period. </p>
+              <p className="text-green-700">Ionization energy decreases down a group because as you go down, the outer electrons are farther from the nucleus and experience less attraction. The increased number of electron shells creates more shielding, making it easier to remove electrons.</p>
+              <p className="text-green-700">Ionization energy increases across a period because the nuclear charge increases while the number of electron shells stays the same. This creates stronger attraction between the nucleus and outer electrons, making them harder to remove.</p>
             </div>
             <div className="bg-blue-50 p-4 rounded-lg">
               <h4 className="font-semibold text-blue-800 mb-2">Electronegativity</h4>
-              <p className="text-blue-700">Decreases down a group, increases across a period</p>
+              <p className="text-blue-700">Electronegativity is the ability of an atom to attract electrons in a covalent bond. Decreases down a group, increases across a period. </p>
+              <p className="text-blue-700">Electronegativity decreases down a group because the atomic size increases, placing the nucleus farther from bonding electrons. The increased distance reduces the nucleus's ability to attract electrons from other atoms.</p>
+              <p className="text-blue-700">Electronegativity increases across a period because the nuclear charge increases while atomic size decreases. This creates stronger attraction for electrons, making the atom more likely to gain electrons in chemical bonds.</p>
             </div>
             <div className="bg-purple-50 p-4 rounded-lg">
               <h4 className="font-semibold text-purple-800 mb-2">Reactivity</h4>
-              <p className="text-purple-700">Metals: increases down and left; Nonmetals: increases up and right</p>
+              <p className="text-purple-700">Reactivity refers to how readily an element undergoes chemical reactions. Metals: increases down and left; Nonmetals: increases up and right. </p>
+              <p className="text-purple-700">For metals, reactivity increases down a group because ionization energy decreases, making it easier to lose electrons. It also increases to the left because elements have fewer valence electrons to lose.</p>
+              <p className="text-purple-700">For nonmetals, reactivity increases up a group because electronegativity increases, making it easier to gain electrons. It also increases to the right because elements are closer to having a full outer shell and need fewer electrons to achieve stability.</p>
             </div>
           </div>
         </section>

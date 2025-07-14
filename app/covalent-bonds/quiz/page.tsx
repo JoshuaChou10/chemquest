@@ -260,7 +260,7 @@ export default function CovalentBondsQuiz() {
           ? 'border-4 border-green-300 bg-green-50' 
           : ''
       }`}>
-        <h2 className="text-2xl font-bold text-gray-800 mb-6">
+        <h2 className="text-2xl font-bold text-black mb-6">
           {currentQ.question}
         </h2>
 
@@ -270,7 +270,7 @@ export default function CovalentBondsQuiz() {
               key={index}
               onClick={() => handleAnswerSelect(index)}
               disabled={selectedAnswers[currentQuestion] !== -1}
-              className={`w-full text-left p-4 rounded-lg border-2 transition-all duration-200 ${
+              className={`w-full text-left p-4 rounded-lg text-gray-600 border-2 transition-all duration-200 ${
                 selectedAnswers[currentQuestion] === index
                   ? index === questions[currentQuestion].correctAnswer
                     ? 'border-green-500 bg-green-100 text-green-800'

@@ -13,7 +13,7 @@ export default function Equations() {
       <div className="bg-white rounded-xl shadow-lg p-8 space-y-8">
         {/* Introduction */}
         <section>
-          <h2 className="text-2xl font-bold text-gray-800 mb-4">What are Chemical Equations?</h2>
+          <h2 className="text-2xl font-bold text-gray-600 mb-4">What are Chemical Equations?</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
             Chemical equations are symbolic representations of chemical reactions. They show the 
             reactants (starting materials) and products (ending materials) involved in a reaction, 
@@ -28,10 +28,10 @@ export default function Equations() {
 
         {/* Parts of a Chemical Equation */}
         <section>
-          <h2 className="text-2xl font-bold text-gray-800 mb-4">Parts of a Chemical Equation</h2>
+          <h2 className="text-2xl font-bold text-gray-600 mb-4">Parts of a Chemical Equation</h2>
           <div className="bg-gradient-to-r from-green-50 to-blue-50 p-6 rounded-lg">
             <div className="text-center mb-6">
-              <div className="text-2xl font-mono text-gray-800">
+              <div className="text-2xl font-mono text-gray-600">
                 Reactants → Products
               </div>
               <div className="text-sm text-gray-600 mt-2">General form of a chemical equation</div>
@@ -62,10 +62,10 @@ export default function Equations() {
 
         {/* Example Equation */}
         <section>
-          <h2 className="text-2xl font-bold text-gray-800 mb-4">Example: Hydrogen + Oxygen → Water</h2>
+          <h2 className="text-2xl font-bold text-gray-600 mb-4">Example: Hydrogen + Oxygen → Water</h2>
           <div className="bg-gradient-to-r from-purple-50 to-pink-50 p-6 rounded-lg">
             <div className="text-center mb-4">
-              <div className="text-3xl font-mono text-gray-800">
+              <div className="text-3xl font-mono text-gray-600">
                 H₂ + O₂ → H₂O
               </div>
             </div>
@@ -95,29 +95,29 @@ export default function Equations() {
 
         {/* Balancing Chemical Equations */}
         <section>
-          <h2 className="text-2xl font-bold text-gray-800 mb-4">Balancing Chemical Equations</h2>
+          <h2 className="text-2xl font-bold text-gray-600 mb-4">Balancing Chemical Equations</h2>
           <p className="text-gray-700 mb-4">
             Balancing equations ensures that the same number of each type of atom appears on both 
             sides of the equation, following the Law of Conservation of Mass.
           </p>
           
           <div className="bg-gradient-to-r from-yellow-50 to-orange-50 p-6 rounded-lg">
-            <h3 className="text-xl font-semibold text-gray-800 mb-4">Steps to Balance Equations:</h3>
+            <h3 className="text-xl font-semibold text-gray-600 mb-4">Steps to Balance Equations:</h3>
             <div className="space-y-4">
               <div className="bg-white p-4 rounded border">
                 <h4 className="font-semibold text-yellow-800 mb-2">Step 1: Write the Unbalanced Equation</h4>
-                <div className="text-center font-mono text-lg">H₂ + O₂ → H₂O</div>
+                <div className="text-center font-mono text-gray-600 text-lg">H₂ + O₂ → H₂O</div>
               </div>
               
               <div className="bg-white p-4 rounded border">
                 <h4 className="font-semibold text-orange-800 mb-2">Step 2: Count Atoms on Each Side</h4>
                 <div className="grid md:grid-cols-2 gap-4 text-sm">
-                  <div>
+                  <div className = "text-gray-600">
                     <strong>Reactants:</strong>
                     <div>H: 2 atoms</div>
                     <div>O: 2 atoms</div>
                   </div>
-                  <div>
+                  <div className = "text-gray-600">
                     <strong>Products:</strong>
                     <div>H: 2 atoms</div>
                     <div>O: 1 atom</div>
@@ -127,7 +127,7 @@ export default function Equations() {
               
               <div className="bg-white p-4 rounded border">
                 <h4 className="font-semibold text-yellow-800 mb-2">Step 3: Add Coefficients to Balance</h4>
-                <div className="text-center font-mono text-lg">2H₂ + O₂ → 2H₂O</div>
+                <div className="text-center font-mono text-gray-600 text-lg">2H₂ + O₂ → 2H₂O</div>
                 <div className="text-center text-sm text-gray-600 mt-2">
                   Now we have 4 H atoms and 2 O atoms on both sides!
                 </div>
@@ -222,7 +222,7 @@ export default function Equations() {
           
           <div className="mt-6 bg-indigo-50 p-6 rounded-lg">
             <h3 className="text-xl font-semibold text-indigo-800 mb-3">Example with State Symbols:</h3>
-            <div className="text-center font-mono text-lg">
+            <div className="text-center font-mono text-gray-600 text-lg">
               2H₂(g) + O₂(g) → 2H₂O(l)
             </div>
             <p className="text-center text-sm text-indigo-700 mt-2">
@@ -243,7 +243,7 @@ export default function Equations() {
                 <li>• Can be changed to balance</li>
                 <li>• Example: 2H₂O means 2 water molecules</li>
               </ul>
-              <div className="mt-4 text-center font-mono text-lg">
+              <div className="mt-4 text-gray-600 text-center font-mono text-lg">
                 2H₂O = 4 H atoms + 2 O atoms
               </div>
             </div>
@@ -256,7 +256,7 @@ export default function Equations() {
                 <li>• Cannot be changed</li>
                 <li>• Example: H₂O means 2 H atoms per molecule</li>
               </ul>
-              <div className="mt-4 text-center font-mono text-lg">
+              <div className="mt-4 text-center text-gray-600 font-mono text-lg">
                 H₂O = 2 H atoms + 1 O atom
               </div>
             </div>
@@ -269,7 +269,7 @@ export default function Equations() {
           <div className="space-y-6">
             <div className="bg-green-50 p-6 rounded-lg">
               <h3 className="text-xl font-semibold text-green-800 mb-3">Example 1: Carbon + Oxygen → Carbon Dioxide</h3>
-              <div className="text-center font-mono text-lg mb-2">
+              <div className="text-center text-gray-600 font-mono text-lg mb-2">
                 C + O₂ → CO₂
               </div>
               <p className="text-green-700 text-sm text-center">
@@ -279,10 +279,10 @@ export default function Equations() {
             
             <div className="bg-blue-50 p-6 rounded-lg">
               <h3 className="text-xl font-semibold text-blue-800 mb-3">Example 2: Nitrogen + Hydrogen → Ammonia</h3>
-              <div className="text-center font-mono text-lg mb-2">
+              <div className="text-center text-gray-600 font-mono text-lg mb-2">
                 N₂ + H₂ → NH₃
               </div>
-              <div className="text-center font-mono text-lg">
+              <div className="text-center text-gray-600 font-mono text-lg">
                 N₂ + 3H₂ → 2NH₃
               </div>
               <p className="text-blue-700 text-sm text-center mt-2">

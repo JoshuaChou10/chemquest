@@ -146,6 +146,9 @@ export default function ReactionsQuiz() {
         setGems(newGems);
         localStorage.setItem('chemquest-gems', newGems.toString());
         
+        // Dispatch custom event to update GemCounter in navigation
+        window.dispatchEvent(new CustomEvent('gemUpdate', { detail: { gems: newGems } }));
+        
         // Show gem animation
         setShowGemAnimation(true);
         setTimeout(() => setShowGemAnimation(false), 1000);
@@ -302,7 +305,7 @@ export default function ReactionsQuiz() {
           ? 'border-4 border-green-300 bg-green-50' 
           : ''
       }`}>
-        <h2 className="text-2xl font-bold text-gray-800 mb-6">
+        <h2 className="text-2xl font-bold text-black mb-6">
           {currentQ.question}
         </h2>
 
@@ -312,7 +315,7 @@ export default function ReactionsQuiz() {
               key={index}
               onClick={() => handleAnswerSelect(index)}
               disabled={selectedAnswers[currentQuestion] !== -1}
-              className={`w-full text-left p-4 rounded-lg border-2 transition-all duration-200 ${
+              className={`w-full text-left p-4 rounded-lg border-2 transition-all text-gray-600 duration-200 ${
                 selectedAnswers[currentQuestion] === index
                   ? index === questions[currentQuestion].correctAnswer
                     ? 'border-green-500 bg-green-100 text-green-800'
