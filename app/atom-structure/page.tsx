@@ -25,6 +25,11 @@ export default function AtomStructure() {
               <strong>Main Idea:</strong> Atoms are the building blocks of all matter in the universe.
             </p>
           </div>
+          <div className="bg-blue-50 border-l-4 border-green-400 p-4 rounded">
+            <p className="text-red-800">
+              <strong>Fun Fact:</strong> An atom is mostly empty space, and in between atoms is also mostly empty space. This means that everything that looks solid (eg. a cloud, a chair, the floor), is really just empty space. 
+            </p>
+          </div>
         </section>
 
         {/* Atomic Components */}
