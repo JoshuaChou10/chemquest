@@ -255,7 +255,7 @@ export default function Elements() {
             <div className="bg-blue-50 p-4 rounded-lg">
               <h4 className="font-semibold text-blue-800 mb-2">Electronegativity</h4>
               <p className="text-blue-700">Electronegativity is the ability of an atom to attract electrons in a covalent bond. Decreases down a group, increases across a period. </p>
-              <p className="text-blue-700">Electronegativity decreases down a group because the atomic size increases, placing the nucleus farther from bonding electrons. The increased distance reduces the nucleus's ability to attract electrons from other atoms.</p>
+              <p className="text-blue-700">Electronegativity decreases down a group because the atomic size increases, placing the nucleus farther from bonding electrons. The increased distance reduces the nucleus&apos;s ability to attract electrons from other atoms.</p>
               <p className="text-blue-700">Electronegativity increases across a period because the nuclear charge increases while atomic size decreases. This creates stronger attraction for electrons, making the atom more likely to gain electrons in chemical bonds.</p>
             </div>
             <div className="bg-purple-50 p-4 rounded-lg">
