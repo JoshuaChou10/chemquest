@@ -104,7 +104,7 @@ export default function Diagrams() {
           <h2 className="text-2xl font-bold text-gray-800 mb-4">Molecular Geometry</h2>
           <p className="text-gray-700 mb-4">
             Molecular geometry describes the three-dimensional arrangement of atoms in a molecule. 
-            It's determined by the number of electron groups around the central atom.
+            It&apos;s determined by the number of electron groups around the central atom.
           </p>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -241,7 +241,7 @@ export default function Diagrams() {
           <h2 className="text-2xl font-bold text-gray-800 mb-4">Electron Dot Diagrams</h2>
           <p className="text-gray-700 mb-4">
             Electron dot diagrams show the valence electrons of individual atoms and how they 
-            interact to form bonds. They're simpler than Lewis structures and focus on electron sharing.
+            interact to form bonds. They&apos;re simpler than Lewis structures and focus on electron sharing.
           </p>
           
           <div className="grid md:grid-cols-2 gap-6">

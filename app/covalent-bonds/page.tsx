@@ -194,7 +194,7 @@ export default function CovalentBonds() {
             <div className="bg-cyan-50 p-6 rounded-lg">
               <h3 className="text-xl font-semibold text-cyan-800 mb-3">Variable Solubility</h3>
               <p className="text-cyan-700 text-sm">
-                Solubility depends on polarity. "Like dissolves like."
+                Solubility depends on polarity. &quot;Like dissolves like.&quot;
               </p>
               <p className="text-cyan-600 text-xs mt-2">Polar dissolves polar, nonpolar dissolves nonpolar</p>
             </div>

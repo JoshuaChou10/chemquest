@@ -111,7 +111,7 @@ export default function AtomStructure() {
             <div className="bg-yellow-50 p-6 rounded-lg">
               <h3 className="text-xl font-semibold text-yellow-800 mb-3">Atomic Number (Z)</h3>
               <p className="text-yellow-700 mb-3">
-                The number of protons in the nucleus. This determines the element's identity.
+                The number of protons in the nucleus. This determines the element&apos;s identity.
               </p>
               <div className="bg-yellow-100 p-3 rounded">
                 <p className="text-yellow-800 font-semibold">Example: Carbon has 6 protons, so Z = 6</p>

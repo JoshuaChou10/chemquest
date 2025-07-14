@@ -116,7 +116,7 @@ export default function IonicBonds() {
             <div className="bg-indigo-50 p-6 rounded-lg">
               <h3 className="text-xl font-semibold text-indigo-800 mb-3">Solubility in Water</h3>
               <p className="text-indigo-700 text-sm">
-                Most ionic compounds are soluble in water due to water's polar nature.
+                Most ionic compounds are soluble in water due to water&apos;s polar nature.
               </p>
               <p className="text-indigo-600 text-xs mt-2">Water molecules surround ions</p>
             </div>
@@ -196,7 +196,7 @@ export default function IonicBonds() {
           <h2 className="text-2xl font-bold text-gray-800 mb-4">Lattice Energy</h2>
           <p className="text-gray-700 mb-4">
             Lattice energy is the energy released when gaseous ions combine to form an ionic solid. 
-            It's a measure of the strength of ionic bonds.
+            It&apos;s a measure of the strength of ionic bonds.
           </p>
           
           <div className="bg-gradient-to-r from-indigo-50 to-purple-50 p-6 rounded-lg">

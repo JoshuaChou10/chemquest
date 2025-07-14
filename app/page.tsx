@@ -99,7 +99,7 @@ export default function Home() {
 
       {/* Features */}
       <div className="bg-white rounded-xl shadow-lg p-8">
-        <h2 className="text-3xl font-bold text-gray-800 mb-6">What You'll Learn</h2>
+        <h2 className="text-3xl font-bold text-gray-800 mb-6">What You&apos;ll Learn</h2>
         <div className="grid md:grid-cols-3 gap-6">
           <div className="text-center space-y-4">
             <div className="text-4xl">📚</div>
