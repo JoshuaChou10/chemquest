@@ -58,9 +58,9 @@ export default function Home() {
       {/* Hero Section */}
       <div className="text-center space-y-6">
         <h1 className="text-5xl font-bold text-gray-600">
-        <span className="text-blue-600">  Welcome to  ChemQuest</span>
+        <span className="text-blue-600"> Welcome to  ChemQuest</span>
         </h1>
-        <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+        <p className="text-xl text-white-600 max-w-3xl mx-auto">
           Learn chemistry through interactive learning modules covering grade 7 - 12 concepts.
           Each section includes concept explanations followed by quizzes to test your understanding.
         </p>
